@@ -11,7 +11,7 @@ namespace LCRLibrary
     {
         public string Name { get; set; }
         public int Tickets { get; set; }
-        public delegate pl reee();
+
         public pl()
         {
         }

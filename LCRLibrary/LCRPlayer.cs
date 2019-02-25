@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LCRLibrary
 {
-    class LCRPlayer
+    public class LCRPlayer
     {
         public int tokens;
 

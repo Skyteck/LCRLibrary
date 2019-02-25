@@ -6,15 +6,26 @@ using System.Threading.Tasks;
 
 namespace LCRLibrary
 {
-    class LCRGame
+    public class LCRGame
     {
-        public int id;
         List<LCRPlayer> currentPlayers = new List<LCRPlayer>();
-        int activePlaceIndex = 0;
-        public LCRGame()
+        int activePlaceIndex;
+
+        public string Id { get; }
+        public int Players { get; }
+
+        public LCRGame(string id, int players = 3)
         {
-            Random idGen = new Random();
-            id = idGen.Next();
+            Id = id;
+            Players = players;
+            Random nr = new Random();
+            activePlaceIndex = nr.Next(0, players);
+        }
+
+        public void AddPlayer()
+        {
+            LCRPlayer p = new LCRPlayer();
+            AddPlayer(p);
         }
 
         public void AddPlayer(LCRPlayer p)
