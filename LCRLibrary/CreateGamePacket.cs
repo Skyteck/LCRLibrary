@@ -7,13 +7,17 @@ namespace LCRLibrary
     {
         public string Id { get; set; }
         public int Playernum { get; set; }
-        public bool Success { get; set; }
+        public bool Success { get; set; } = false;
 
         public CreateGamePacket()
         {
-            Playernum = 3;
-            Random idGen = new Random();
-            Id = idGen.Next(1, 100000).ToString();
+            if(!Success)
+            {
+                Playernum = 3;
+                Random idGen = new Random();
+                Id = idGen.Next(1, 100000).ToString();
+            }
+            
         }
 
         public CreateGamePacket(string id, int playernum)

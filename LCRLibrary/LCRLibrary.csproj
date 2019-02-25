@@ -46,7 +46,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="CreateGamePacket.cs" />
-    <Compile Include="LCRGame.cs" />
+    <Compile Include="LCRLobby.cs" />
     <Compile Include="LCRPlayer.cs" />
     <Compile Include="pl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

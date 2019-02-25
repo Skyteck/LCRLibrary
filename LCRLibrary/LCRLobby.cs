@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LCRLibrary
 {
-    public class LCRGame
+    public class LCRLobby
     {
         List<LCRPlayer> currentPlayers = new List<LCRPlayer>();
         int activePlaceIndex;
@@ -14,7 +14,7 @@ namespace LCRLibrary
         public string Id { get; }
         public int Players { get; }
 
-        public LCRGame(string id, int players = 3)
+        public LCRLobby(string id, int players = 3)
         {
             Id = id;
             Players = players;
