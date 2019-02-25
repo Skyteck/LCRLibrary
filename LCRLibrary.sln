@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCRLibrary", "LCRLibrary\LCRLibrary.csproj", "{ACA975F2-1D2C-474D-B90B-EA1BA9C539DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCRServer", "..\ConsoleApp1\ConsoleApp1\LCRServer.csproj", "{82F10703-9008-4F99-AADF-3CB9459992E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCRClient", "..\ConsoleApp2\ConsoleApp2\LCRClient.csproj", "{A43AB94A-11D6-4613-97B7-946350B877A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{ACA975F2-1D2C-474D-B90B-EA1BA9C539DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACA975F2-1D2C-474D-B90B-EA1BA9C539DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACA975F2-1D2C-474D-B90B-EA1BA9C539DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F10703-9008-4F99-AADF-3CB9459992E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F10703-9008-4F99-AADF-3CB9459992E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F10703-9008-4F99-AADF-3CB9459992E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F10703-9008-4F99-AADF-3CB9459992E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A43AB94A-11D6-4613-97B7-946350B877A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43AB94A-11D6-4613-97B7-946350B877A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43AB94A-11D6-4613-97B7-946350B877A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43AB94A-11D6-4613-97B7-946350B877A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
